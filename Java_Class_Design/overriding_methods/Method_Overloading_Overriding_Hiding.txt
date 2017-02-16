@@ -1,0 +1,43 @@
+
+class Book {
+	public static void printName(){
+		....
+	}
+	public int issueBook(int days){
+		....
+	}
+	public int returnBook(int days){
+		....
+	}
+}
+
+class CourseBook extends Book{
+	public static void printName(){
+		....
+	}
+	overloading
+		public int issueBook(int days){
+			....
+		}
+	public int issueBook(){
+		....
+	}
+	public int returnBook(int a, int b){
+		....
+	}
+}
+
+
+		Book					CourseBook
+	printName()				  printName()
+	issueBook()				  issueBook(int)	
+	returnBook() 				  issueBook()
+						  returnBook(int, int)
+
+1. Method Hiding:- printName() --> printName()
+
+2. Method Overloading:- returnBook() --> returnBook(int,int)
+
+3. Method Overriding:- issueBook(int)  --> issueBook() 
+
+
