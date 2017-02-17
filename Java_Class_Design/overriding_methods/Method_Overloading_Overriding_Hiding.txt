@@ -1,3 +1,8 @@
+/* 
+ *  When a class extends another class, it can overload, override,or hide 
+ *  its base class methods. A class can’t override or hide its own methods 
+ *  it can only overload its own methods.
+ */
 
 class Book {
 	public static void printName(){
